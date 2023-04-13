@@ -36,17 +36,21 @@ format:
 
 ![](images/bookcover.png)
 
-Free, at https://tracking.whatanimalssee.com
+Free, at tracking.whatanimalssee.com
 
 ::: notes
+
+In writing this little book, I distilled the results of hundreds of studies to a short list of empirical generalizations. Broad lessons for how cognition and perception connect, it turns out.
+
 In some ways, visual attention and memory are a coherent scientific field. I mean that findings from paradigms other than MOT generalize to MOT too.
 
-When I wrote this book one of the things I noticed was that to explain MOT and its role in the mind one mainly ended up explaining things about the mind that we know from other paradigms.
+:::
+
+<!-- When I wrote this book one of the things I noticed was that to explain MOT and its role in the mind one mainly ended up explaining things about the mind that we know from other paradigms.
 
 Not every field of psychology is like that.
 This is not a unified theory of tracking. That would be a different talk. This is broad empirical generalizations, the ingredients to a unified theory.
-:::
-
+-->
 
 ## Five lessons from studies of multiple object tracking
 
@@ -60,11 +64,13 @@ This is not a unified theory of tracking. That would be a different talk. This i
 
 :::
 
-## 1. Feature binding requires focused attention
+## 1.  \ \ \  Feature binding requires focused attention
 
 ![](images/inspectorCartoon.png)
 
-## 1.  Feature binding requires focused attention
+## 1.  \ \ \  Feature binding requires focused attention
+
+<BR>
 
 ### Color attention is sufficient
 
@@ -78,7 +84,9 @@ Targets: [1]{style="color: green;"}[2]{style="color: green;"}[3]{style="color: g
 
 Distractors: [4]{style="color: green;"}[5]{style="color: green;"}[6]{style="color: green;"}
 
-## 1. Feature binding requires focused attention
+## 1.  \ \ \  Feature binding requires focused attention
+
+<BR>
 
 ### Color attention is sufficient
 
@@ -118,6 +126,13 @@ Makovski & Jiang (2009)
 ## Can't judge spatial relations if you can't select {.smaller}
 
 ![](images/HolcombeLinaresVaziriPashkam.png)
+::: notes
+
+Selection is not just about tracking.
+
+Knock-on consequences, for judging basic things about the scene
+
+:::
 
 Holcombe, Linares, Vaziri-Pashkam (2011)
 
@@ -129,9 +144,9 @@ Holcombe, Linares, Vaziri-Pashkam (2011)
 
 ## 2.  \ \ \ Where, but not what!
 
-<BR><BR>
+<BR>
 
-![](images/whereButNotWhat.png)
+![](images/whereButNotWhat.png){.r-stretch}
 
 - Features are updated poorly as an object moves, or not at all (e.g. Horowitz et al., 2007)
 
@@ -161,6 +176,20 @@ Distinct process Yet to be integrated with VSTM theories. <!--Like it came up wi
 
 - A remarkable ~90% independence
 - Semi-independent limits for location selection and updating
+
+::: notes
+
+Exciting
+
+:::
+
+## 2 and 3. \ \ Where is split-brain, what is full-brain
+
+![](images/splitbrainWithPools.png)
+
+![](images/whereButNotWhat.png)
+
+Spatial selection appears to occur at a hemifield-specific stage, with other features subsequently updated and linked in at a field-wide stage.
 
 ##
 
@@ -219,7 +248,7 @@ I read a lot of papers that say that this factor or that factor influence MOT pe
 A role for 
 :::
 
-## 5.  \ \ \ Crowding constrains selection
+## 5.  \ \ \ Crowding constrains selection: Spatial
 
 ```{r, echo=FALSE, fig.cap = ""}
 DiagrammeR::grViz("digraph {
@@ -298,16 +327,17 @@ lll -> llll
 }")
 ```
 
-- Spatial interference
+Spatial
+
 - Not worse with more targets (Holcombe, Chen, & Howe, 2014)
 
-## 5.  \ \ \ Temporal crowding constrains selection
+## 5.  \ \ \ Crowding constrains selection: Temporal
 
 
 ![](images/2targets3objectsPerArray.gif)
 <!-- https://trackinglimits.whatanimalssee.com/speedAndTime.html#temporal-limits-on-tracking-->
 
-## 5.  \ \ \ Temporal crowding constrains selection
+## 5.  \ \ \ Crowding constrains selection: Temporal
 
 ![](images/2targets9objectsPerArray.gif)
 <!-- https://trackinglimits.whatanimalssee.com/speedAndTime.html#temporal-limits-on-tracking-->
@@ -318,12 +348,12 @@ lll -> llll
 ![](images/temporalAndSpeedLimitsMsec.png)
 ## Wut - it's bizarre I need this to  make the next slide not disappear
 
-## 5.  \ \ \ Temporal crowding constrains selection {.smaller}
+## 5.  \ \ \ Crowding constrains selection: Temporal {.smaller}
 
 ![](images/temporalAndSpeedLimitsMsec.png)
 
 - Much worse with more targets (Holcombe & Chen, 2013)
-- Hard to explain without serial switching
+- Hard to explain without serial switching - oscillations
 - Temporal interference not understood in other paradigms (Tkacz-Domb & Yeshurun, 2021)
 
 <!-- - Temporal interference (Verstraten, Cavanagh, & LaBianca, 2000) -->
@@ -380,7 +410,7 @@ Open access • Publication charge free • Public peer review • Wikipedia-int
 I'm an associate editor there
 :::
 
-## WikiJournal Preprints {background-color="black" background-image="images/2targets3objectsPerArray.gif"}
+## WikiJournal Preprints {background-color="black" background-image="images/2targets9objectsPerArray.gif"}
 
 ![](images/wikipreprint.png)
 

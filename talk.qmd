@@ -307,17 +307,19 @@ lll -> llll
 
 ## 5. Temporal crowding constrains selection
 
-![https://trackinglimits.whatanimalssee.com/speedAndTime.html#temporal-limits-on-tracking](images/2targets3objectsPerArray.gif)
+
+![](images/2targets3objectsPerArray.gif)
+<!-- https://trackinglimits.whatanimalssee.com/speedAndTime.html#temporal-limits-on-tracking-->
 
 ## 5. Temporal crowding constrains selection
 
-![https://trackinglimits.whatanimalssee.com/speedAndTime.html#temporal-limits-on-tracking](images/2targets9objectsPerArray.gif)
-
+![](images/2targets9objectsPerArray.gif)
+<!-- https://trackinglimits.whatanimalssee.com/speedAndTime.html#temporal-limits-on-tracking-->
 
 
 ## 5. Temporal crowding constrains selection
 
-![](images/temporalAndSpeedLimits.png)
+![](images/temporalAndSpeedLimitsMsec.png)
 
 - Temporal interference (Verstraten, Cavanagh, & LaBianca, 2000)
 - Much worse with more targets (Holcombe & Chen, 2013)

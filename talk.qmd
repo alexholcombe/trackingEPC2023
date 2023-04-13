@@ -120,10 +120,15 @@ What you learn in every cognitive psychology class
 
 Makovski & Jiang (2009)
 
-
 ::: notes
-Treisman famously
+
 :::
+
+## Can't judge spatial relations if you can't select {.smaller}
+
+![](images/HolcombeLinaresVaziriPashkam.png)
+
+Holcombe, Linares, Vaziri-Pashkam (2011)
 
 ## 2.  \ \ \ Where, but not what!
 

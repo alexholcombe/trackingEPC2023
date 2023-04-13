@@ -371,32 +371,17 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="wikijournal-of-science" class="slide level2">
-<h2>WikiJournal of Science</h2>
-
-<img data-src="images/WikiJSci.jpeg" class="r-stretch"><p>Open access • Publication charge free • Public peer review • Wikipedia-integrated</p>
-<!--https://en.wikiversity.org/wiki/WikiJournal_Preprints/Multiple_object_tracking-->
-<aside class="notes">
-<p>I’m an associate editor there</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="wikijournal-preprints" class="slide level2">
-<h2>WikiJournal Preprints</h2>
-
-<img data-src="images/wikipreprint.png" class="r-stretch"><p>https://en.wikiversity.org/wiki/WikiJournal_Preprints/Multiple_object_tracking</p>
-</section>
-<section id="five-lessons" class="slide level2">
-<h2>Five lessons</h2>
+<section id="five-lessons-from-studies-of-multiple-object-tracking-1" class="slide level2">
+<h2>Five lessons from studies of multiple object tracking</h2>
+<div>
+<ol type="1">
+<li>Feature binding requires focused attention</li>
+<li>Where, but not what!</li>
+<li>Split-brain selection</li>
+<li>Unitary cognition contaminates many studies</li>
+<li>Spatial and temporal crowding constrains selection</li>
+</ol>
+</div>
 </section>
 <section id="feature-binding-requires-focused-attention" class="slide level2">
 <h2>1. Feature binding requires focused attention</h2>
@@ -525,8 +510,8 @@
 <!--Potentially add an object creation process-->
 <div class="cell">
 <div class="cell-output-display">
-<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-6d954b8a17575f719428" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-6d954b8a17575f719428">{"x":{"diagram":"digraph {\n\ngraph [layout = dot, rankdir = BT]\n\n# define the global styles of the nodes. We can override these in box if we wish\nnode [shape = rectangle, style = filled, fillcolor = Linen]\n\n#Define the nodes\nL [label = \"LH retinotopy\", width=5, height=1, fillcolor = firebrick]\nR [label = \"RH retinotopy\", width=5, height=1, fillcolor = firebrick]\nselectnLH [label =  \"parietal selection\"]\nselectnRH [label =  \"parietal selection\"]\noutput [label = \"Visual Working Memory\", width=6, height=2, color=White, fillcolor=gold1]\n\n\n# edge definitions with the node IDs\nedge [label=\"  bottleneck\", penwidth=.3]\nL  -> selectnLH;\nedge [label=\"\", penwidth=3]\nselectnLH -> output\n\nedge [label=\"  bottleneck\", penwidth=.3]\nR -> selectnRH\nedge [label=\"\", penwidth=3]\nselectnRH -> output\n\n\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-d8ca22042b6c8a79fbcf" style="width:960px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-d8ca22042b6c8a79fbcf">{"x":{"diagram":"digraph {\n\ngraph [layout = dot, rankdir = BT]\n\n# define the global styles of the nodes. We can override these in box if we wish\nnode [shape = rectangle, style = filled, fillcolor = Linen]\n\n#Define the nodes\nL [label = \"LH retinotopy\", width=5, height=1, fillcolor = firebrick]\nR [label = \"RH retinotopy\", width=5, height=1, fillcolor = firebrick]\nselectnLH [label =  \"parietal selection\"]\nselectnRH [label =  \"parietal selection\"]\noutput [label = \"Visual Working Memory\", width=6, height=2, color=White, fillcolor=gold1]\n\n\n# edge definitions with the node IDs\nedge [label=\"  bottleneck\", penwidth=.3]\nL  -> selectnLH;\nedge [label=\"\", penwidth=3]\nselectnLH -> output\n\nedge [label=\"  bottleneck\", penwidth=.3]\nR -> selectnRH\nedge [label=\"\", penwidth=3]\nselectnRH -> output\n\n\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
@@ -557,8 +542,8 @@
 <h2>5. &nbsp;&nbsp;&nbsp;Crowding constrains selection</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-4afb99a2426bcce480ff" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-4afb99a2426bcce480ff">{"x":{"diagram":"digraph {\ngraph [layout = dot, rankdir = LR]\n\n# define the global styles of the nodes. We can override these in box if we wish\nnode [shape = rectangle, style = filled, color=White, fillcolor = White, fontsize = 40]\nnodesep=0.02;\n\na [label = \"O\"]\nfixation [label =  \"\", shape=circle, fillcolor=Black, width=.2, height=.2]\nb [label = \" \"]\nc [label = \" \"]\nd [label = \"J\"]\ne [label = \" \"]\ne2 [label = \" \"]\ne3 [label = \"S\"]\n\n#add some blanks to help space the actual letters together\nffff [label=\"\"]\nfff [label=\"\"]\nff [label=\"\"]\nf [label = \"\"]\ng [label = \"R\"]\nh [label = \"L\"]\ni [label = \"H\"]\nj [label = \"Y\"]\nk [label = \"M\"]\nl [label = \"\"]\nll [label=\"\"]\nlll [label=\"\"]\nllll [label=\"\"]\n\n# edge definitions with the node IDs\nedge [label=\"\", penwidth=0, arrowsize=0]\na  -> b;\nedge [label=\"\", penwidth=0, arrowsize=0]\nb -> c\nedge [label=\"\", penwidth=0, arrowsize=0]\nc -> d\nedge [label=\"\", penwidth=0, arrowsize=0]\nd -> e\nedge [label=\"\", penwidth=0, arrowsize=0]\ne -> e2\nedge [label=\"\", penwidth=0, arrowsize=0]\ne2 -> e3\nedge [label=\"\", penwidth=0, arrowsize=0]\ne3 -> fixation\n\nedge [label=\"\", penwidth=0, arrowsize=0]\nfixation -> ffff\nedge [label=\"\", penwidth=0, arrowsize=0]\nffff -> fff\nedge [label=\"\", penwidth=0, arrowsize=0]\nfff -> ff\nedge [label=\"\", penwidth=0, arrowsize=0]\nff -> f\nedge [label=\"\", penwidth=0, arrowsize=0]\nf -> g\nedge [label=\"\", penwidth=0, arrowsize=0]\ng -> h\nedge [label=\"\", penwidth=0, arrowsize=0]\nh -> i\nedge [label=\"\", penwidth=0, arrowsize=0]\ni -> j\nedge [label=\"\", penwidth=0, arrowsize=0]\nj -> k\nedge [label=\"\", penwidth=0, arrowsize=0]\nk -> l\nedge [label=\"\", penwidth=0, arrowsize=0]\nl -> ll\nedge [label=\"\", penwidth=0, arrowsize=0]\nll -> lll\nedge [label=\"\", penwidth=0, arrowsize=0]\nlll -> llll\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-588a10ca6a6d46659a77" style="width:960px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-588a10ca6a6d46659a77">{"x":{"diagram":"digraph {\ngraph [layout = dot, rankdir = LR]\n\n# define the global styles of the nodes. We can override these in box if we wish\nnode [shape = rectangle, style = filled, color=White, fillcolor = White, fontsize = 40]\nnodesep=0.02;\n\na [label = \"O\"]\nfixation [label =  \"\", shape=circle, fillcolor=Black, width=.2, height=.2]\nb [label = \" \"]\nc [label = \" \"]\nd [label = \"J\"]\ne [label = \" \"]\ne2 [label = \" \"]\ne3 [label = \"S\"]\n\n#add some blanks to help space the actual letters together\nffff [label=\"\"]\nfff [label=\"\"]\nff [label=\"\"]\nf [label = \"\"]\ng [label = \"R\"]\nh [label = \"L\"]\ni [label = \"H\"]\nj [label = \"Y\"]\nk [label = \"M\"]\nl [label = \"\"]\nll [label=\"\"]\nlll [label=\"\"]\nllll [label=\"\"]\n\n# edge definitions with the node IDs\nedge [label=\"\", penwidth=0, arrowsize=0]\na  -> b;\nedge [label=\"\", penwidth=0, arrowsize=0]\nb -> c\nedge [label=\"\", penwidth=0, arrowsize=0]\nc -> d\nedge [label=\"\", penwidth=0, arrowsize=0]\nd -> e\nedge [label=\"\", penwidth=0, arrowsize=0]\ne -> e2\nedge [label=\"\", penwidth=0, arrowsize=0]\ne2 -> e3\nedge [label=\"\", penwidth=0, arrowsize=0]\ne3 -> fixation\n\nedge [label=\"\", penwidth=0, arrowsize=0]\nfixation -> ffff\nedge [label=\"\", penwidth=0, arrowsize=0]\nffff -> fff\nedge [label=\"\", penwidth=0, arrowsize=0]\nfff -> ff\nedge [label=\"\", penwidth=0, arrowsize=0]\nff -> f\nedge [label=\"\", penwidth=0, arrowsize=0]\nf -> g\nedge [label=\"\", penwidth=0, arrowsize=0]\ng -> h\nedge [label=\"\", penwidth=0, arrowsize=0]\nh -> i\nedge [label=\"\", penwidth=0, arrowsize=0]\ni -> j\nedge [label=\"\", penwidth=0, arrowsize=0]\nj -> k\nedge [label=\"\", penwidth=0, arrowsize=0]\nk -> l\nedge [label=\"\", penwidth=0, arrowsize=0]\nl -> ll\nedge [label=\"\", penwidth=0, arrowsize=0]\nll -> lll\nedge [label=\"\", penwidth=0, arrowsize=0]\nlll -> llll\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <ul>
@@ -588,15 +573,17 @@
 </ul>
 <!-- - Temporal interference (Verstraten, Cavanagh, & LaBianca, 2000) -->
 </section>
-<section id="five-lessons-from-studies-of-multiple-object-tracking-1" class="slide level2">
+<section id="five-lessons-from-studies-of-multiple-object-tracking-2" class="slide level2">
 <h2>Five lessons from studies of multiple object tracking</h2>
+<div>
 <ol type="1">
-<li class="fragment">Feature binding requires focused attention</li>
-<li class="fragment">Where, but not what!</li>
-<li class="fragment">Split-brain selection</li>
-<li class="fragment">Unitary cognition contaminates many studies</li>
-<li class="fragment">Spatial and temporal crowding constrains selection</li>
+<li>Feature binding requires focused attention</li>
+<li>Where, but not what!</li>
+<li>Split-brain selection</li>
+<li>Unitary cognition contaminates many studies</li>
+<li>Spatial and temporal crowding constrains selection</li>
 </ol>
+</div>
 <aside class="notes">
 <p>With tracking you can actually isolate a hemisphere-specific process.</p>
 <style type="text/css">
@@ -631,6 +618,30 @@
 -   Temporal crowding screws up feature binding
 -   Surface segregation is an exception
 -->
+</section>
+<section id="wikijournal-of-science" class="slide level2">
+<h2>WikiJournal of Science</h2>
+
+<img data-src="images/WikiJSci.jpeg" class="r-stretch"><p>Open access • Publication charge free • Public peer review • Wikipedia-integrated</p>
+<!--https://en.wikiversity.org/wiki/WikiJournal_Preprints/Multiple_object_tracking-->
+<aside class="notes">
+<p>I’m an associate editor there</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="wikijournal-preprints" class="slide level2" data-background-color="black" data-background-image="images/2targets3objectsPerArray.gif">
+<h2>WikiJournal Preprints</h2>
+
+<img data-src="images/wikipreprint.png" class="r-stretch"><p>https://en.wikiversity.org/wiki/WikiJournal_Preprints/Multiple_object_tracking</p>
 </section>
 <section id="end" class="slide level2" data-background-color="black" data-background-image="images/2targets3objectsPerArray.gif">
 <h2>END</h2>

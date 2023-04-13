@@ -47,27 +47,18 @@ Not every field of psychology is like that.
 This is not a unified theory of tracking. That would be a different talk. This is broad empirical generalizations, the ingredients to a unified theory.
 :::
 
-## WikiJournal of Science
 
-![](images/WikiJSci.jpeg)
+## Five lessons from studies of multiple object tracking
 
-Open access • Publication charge free • Public peer review • Wikipedia-integrated
+::: {.nonincremental}
 
-<!--https://en.wikiversity.org/wiki/WikiJournal_Preprints/Multiple_object_tracking-->
+1. Feature binding requires focused attention
+2. Where, but not what!
+3. Split-brain selection
+4. Unitary cognition contaminates many studies
+5. Spatial and temporal crowding constrains selection
 
-::: notes
-I'm an associate editor there
 :::
-
-## WikiJournal Preprints
-
-![](images/wikipreprint.png)
-
-https://en.wikiversity.org/wiki/WikiJournal_Preprints/Multiple_object_tracking
-
-## Five lessons
-
-
 
 ## 1. Feature binding requires focused attention
 
@@ -340,11 +331,15 @@ lll -> llll
 
 ## Five lessons from studies of multiple object tracking
 
+::: {.nonincremental}
+
 1. Feature binding requires focused attention
 2. Where, but not what!
 3. Split-brain selection
 4. Unitary cognition contaminates many studies
 5. Spatial and temporal crowding constrains selection
+
+:::
 
 ::: notes
 With tracking you can actually isolate a hemisphere-specific process.
@@ -372,6 +367,24 @@ With tracking you can actually isolate a hemisphere-specific process.
 -   Temporal crowding screws up feature binding
 -   Surface segregation is an exception
 -->
+
+## WikiJournal of Science
+
+![](images/WikiJSci.jpeg)
+
+Open access • Publication charge free • Public peer review • Wikipedia-integrated
+
+<!--https://en.wikiversity.org/wiki/WikiJournal_Preprints/Multiple_object_tracking-->
+
+::: notes
+I'm an associate editor there
+:::
+
+## WikiJournal Preprints {background-color="black" background-image="images/2targets3objectsPerArray.gif"}
+
+![](images/wikipreprint.png)
+
+https://en.wikiversity.org/wiki/WikiJournal_Preprints/Multiple_object_tracking
 
 ## END {background-color="black" background-image="images/2targets3objectsPerArray.gif"}
 

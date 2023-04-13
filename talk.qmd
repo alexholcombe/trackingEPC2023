@@ -11,13 +11,14 @@ format:
     center: false
     controls: true  
 ---
-<!-- For github deployment, followed these instructions for github pages https://quarto.org/docs/publishing/github-pages.html -->
 
 ## Five lessons from studies of multiple object tracking {background-color="black" background-image="images/2targets3objectsPerArray.gif"}
 
 #### Alex Holcombe
 
 #### University of Sydney
+
+<!-- For github deployment, followed these instructions for github pages https://quarto.org/docs/publishing/github-pages.html -->
 
 ##
 
@@ -35,9 +36,7 @@ format:
 
 ![](images/bookcover.png)
 
-Free at
-
-https://tracking.whatanimalssee.com
+Free, at https://tracking.whatanimalssee.com
 
 ::: notes
 When I wrote this book one of the things I noticed was that to explain MOT and its role in the mind one mainly ended up explaining things about the mind that we know from other paradigms.
@@ -347,8 +346,7 @@ With tracking you can actually isolate a hemisphere-specific process.
 
 :::
 
-## Five lessons for attention from studies of multiple object tracking
-
+<!--
 1.  Knowing where but not what. Selecting an object does not entail knowing anything about it, apart from its location
     -   And it's actually worse than this because
     -   Don't know about motion direction possibly without focused attention ()
@@ -356,7 +354,7 @@ With tracking you can actually isolate a hemisphere-specific process.
     -   Don't know much about generalization to other tasks
 3.  Feature binding requires focused attention
     -   Tracking experiments that show you can't use conjunctions
-    -   Including spatial relations Holcombe, Linares, Pashkam
+    -   Including spatial relations Holcombe, Linares, Vaziri-Pashkam
 4.  Different forms of attention work together
     -   Feature attention exists but is independent of attention
 5.  Unitary (not split-brain) cognition contaminates tasks
@@ -368,6 +366,13 @@ With tracking you can actually isolate a hemisphere-specific process.
 -   only temporal crowding is markedly worsened as the number of objects to select increases.\
 -   Temporal crowding screws up feature binding
 -   Surface segregation is an exception
+-->
+
+## END {background-color="black" background-image="images/2targets3objectsPerArray.gif"}
+
+#### Alex Holcombe
+
+#### University of Sydney
 
 ## The relationship of multiple object tracking to other forms of attention
 

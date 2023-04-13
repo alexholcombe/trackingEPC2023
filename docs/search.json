@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "talk.html#five-lessons-from-studies-of-multiple-object-tracking",
+    "href": "talk.html#five-lessons-from-studies-of-multiple-object-tracking",
+    "title": "EPC 2023",
+    "section": "Five lessons from studies of multiple object tracking",
+    "text": "Five lessons from studies of multiple object tracking\nAlex Holcombe\nUniversity of Sydney"
+  },
+  {
+    "objectID": "talk.html#section-2",
+    "href": "talk.html#section-2",
+    "title": "EPC 2023",
+    "section": "",
+    "text": "Free at\nhttps://tracking.whatanimalssee.com\n\nWhen I wrote this book one of the things I noticed was that to explain MOT and its role in the mind one mainly ended up explaining things about the mind that we know from other paradigms.\nIn that way, visual attention and memory are a coherent scientific field. I mean that findings from paradigms other than MOT generalize to MOT too.\nNot every field of psychology is like that. This is not a unified theory of tracking. That would be a different talk. This is broad empirical generalizations, the ingredients to a unified theory."
+  },
+  {
+    "objectID": "talk.html#wikijournal-of-science",
+    "href": "talk.html#wikijournal-of-science",
+    "title": "EPC 2023",
+    "section": "WikiJournal of Science",
+    "text": "WikiJournal of Science\n\nOpen access • Publication charge free • Public peer review • Wikipedia-integrated\n\n\nI’m an associate editor there"
+  },
+  {
+    "objectID": "talk.html#wikijournal-preprints",
+    "href": "talk.html#wikijournal-preprints",
+    "title": "EPC 2023",
+    "section": "WikiJournal Preprints",
+    "text": "WikiJournal Preprints\n\nhttps://en.wikiversity.org/wiki/WikiJournal_Preprints/Multiple_object_tracking"
+  },
+  {
+    "objectID": "talk.html#five-lessons",
+    "href": "talk.html#five-lessons",
+    "title": "EPC 2023",
+    "section": "Five lessons",
+    "text": "Five lessons"
+  },
+  {
+    "objectID": "talk.html#feature-binding-requires-focused-attention",
+    "href": "talk.html#feature-binding-requires-focused-attention",
+    "title": "EPC 2023",
+    "section": "1. Feature binding requires focused attention",
+    "text": "1. Feature binding requires focused attention"
+  },
+  {
+    "objectID": "talk.html#feature-binding-requires-focused-attention-1",
+    "href": "talk.html#feature-binding-requires-focused-attention-1",
+    "title": "EPC 2023",
+    "section": "1. Feature binding requires focused attention",
+    "text": "1. Feature binding requires focused attention\nColor attention is sufficient\nTargets: 111\nDistractors: 111\nShape attention is sufficient\nTargets: 123\nDistractors: 456"
+  },
+  {
+    "objectID": "talk.html#feature-binding-requires-focused-attention-2",
+    "href": "talk.html#feature-binding-requires-focused-attention-2",
+    "title": "EPC 2023",
+    "section": "1. Feature binding requires focused attention",
+    "text": "1. Feature binding requires focused attention\nColor attention is sufficient\nTargets: 111\nDistractors: 111\nShape attention is sufficient\nTargets: 123\nDistractors: 456\nColor-shape\nTargets: 123\nDistractors: 231\n\nWhat you learn in every cognitive psychology class"
+  },
+  {
+    "objectID": "talk.html#feature-binding-requires-focused-attention-3",
+    "href": "talk.html#feature-binding-requires-focused-attention-3",
+    "title": "EPC 2023",
+    "section": "1. Feature binding requires focused attention",
+    "text": "1. Feature binding requires focused attention\n\n\nDid the enhancement from distinct identities extend to a condition where the objects were distinct in terms of a combination of colour and digit, but not in colour or digit alone? Our results clearly showed that it did not.\n\nMakovski & Jiang (2009)\n\nTreisman famously"
+  },
+  {
+    "objectID": "talk.html#where-but-not-what",
+    "href": "talk.html#where-but-not-what",
+    "title": "EPC 2023",
+    "section": "2. Where, but not what!",
+    "text": "2. Where, but not what!"
+  },
+  {
+    "objectID": "talk.html#where-but-not-what-1",
+    "href": "talk.html#where-but-not-what-1",
+    "title": "EPC 2023",
+    "section": "2. Where, but not what!",
+    "text": "2. Where, but not what!\n\n\nFeatures are not updated as an object moves.\nVSTM remains stuck in the past.\n\n\nHorowitz et al. (2007), who had participants track targets with unique appearances - the stimuli were cartoon animals in one set of experiments. At the end of each trial, the targets moved behind occluders so that their identities were no longer visible. Participants were asked where a particular target (say, the cartoon rabbit) had gone - that is, which occluder it was hiding behind. This type of task had been dubbed “multiple identity tracking” by Oksama and Hyönä (2004). Performance was better than chance, but was worse than the standard MOT task of reporting target locations irrespective of which target a location belonged to.\nNot fully anticipated from other visual attention paradigms. Somewhat suggested by FIT.\nDistinct process Yet to be integrated with VSTM theories."
+  },
+  {
+    "objectID": "talk.html#split-brain-selection",
+    "href": "talk.html#split-brain-selection",
+    "title": "EPC 2023",
+    "section": "3. Split-brain selection",
+    "text": "3. Split-brain selection"
+  },
+  {
+    "objectID": "talk.html#split-brain-selection-1",
+    "href": "talk.html#split-brain-selection-1",
+    "title": "EPC 2023",
+    "section": "3. Split-brain selection",
+    "text": "3. Split-brain selection\n\n\nA remarkable ~90% independence\nSemi-independent limits for location selection and updating"
+  },
+  {
+    "objectID": "talk.html#the-architecture-of-selection",
+    "href": "talk.html#the-architecture-of-selection",
+    "title": "EPC 2023",
+    "section": "The architecture of selection",
+    "text": "The architecture of selection\n\nA lot of people are studying the top or the bottom. Almost nobody’s studying the middle We didn’t have a way to get at it before."
+  },
+  {
+    "objectID": "talk.html#unitary-cognition-contaminates-many-studies",
+    "href": "talk.html#unitary-cognition-contaminates-many-studies",
+    "title": "EPC 2023",
+    "section": "4. Unitary cognition contaminates many studies",
+    "text": "4. Unitary cognition contaminates many studies"
+  },
+  {
+    "objectID": "talk.html#unitary-cognition-contaminates-many-studies-1",
+    "href": "talk.html#unitary-cognition-contaminates-many-studies-1",
+    "title": "EPC 2023",
+    "section": "4. Unitary cognition contaminates many studies",
+    "text": "4. Unitary cognition contaminates many studies\n - Always test for hemifield independence\n\nWith tracking you can actually isolate a hemisphere-specific process.\nI read a lot of papers that say that this factor or that factor influence MOT performance, and they imply that they’ve revealed something about how the tracking process works, but actually it could just be cognition following a single target and boosting performance.\nA role for\n\n600px-KND_+_N_2wikimedia.jpg"
+  },
+  {
+    "objectID": "talk.html#crowding-constrains-selection",
+    "href": "talk.html#crowding-constrains-selection",
+    "title": "EPC 2023",
+    "section": "5. Crowding constrains selection",
+    "text": "5. Crowding constrains selection\n\n\n\n\n\n\n\nSpatial interference\nDoes not get much worse with more targets"
+  },
+  {
+    "objectID": "talk.html#temporal-crowding-constrains-selection",
+    "href": "talk.html#temporal-crowding-constrains-selection",
+    "title": "EPC 2023",
+    "section": "5. Temporal crowding constrains selection",
+    "text": "5. Temporal crowding constrains selection\n ## 5. Temporal crowding constrains selection\n\n\n\nhttps://trackinglimits.whatanimalssee.com/speedAndTime.html#temporal-limits-on-tracking"
+  },
+  {
+    "objectID": "talk.html#temporal-crowding-constrains-selection-1",
+    "href": "talk.html#temporal-crowding-constrains-selection-1",
+    "title": "EPC 2023",
+    "section": "5. Temporal crowding constrains selection",
+    "text": "5. Temporal crowding constrains selection\n\n\nTemporal interference (Verstraten, Cavanagh, & LaBianca, 2000)\nMuch worse with more targets (Holcombe & Chen, 2013)\nHard to explain without serial switching\nTemporal interference is not understood in other paradigms (Tkacz-Domb & Yeshurun, 2021)"
+  },
+  {
+    "objectID": "talk.html#five-lessons-from-studies-of-multiple-object-tracking-1",
+    "href": "talk.html#five-lessons-from-studies-of-multiple-object-tracking-1",
+    "title": "EPC 2023",
+    "section": "Five lessons from studies of multiple object tracking",
+    "text": "Five lessons from studies of multiple object tracking\n\nFeature binding requires focused attention\nWhere, but not what!\nSplit-brain selection\nUnitary cognition contaminates many studies\nSpatial and temporal crowding constrains selection\n\n\nWith tracking you can actually isolate a hemisphere-specific process."
+  },
+  {
+    "objectID": "talk.html#five-lessons-for-attention-from-studies-of-multiple-object-tracking",
+    "href": "talk.html#five-lessons-for-attention-from-studies-of-multiple-object-tracking",
+    "title": "EPC 2023",
+    "section": "Five lessons for attention from studies of multiple object tracking",
+    "text": "Five lessons for attention from studies of multiple object tracking\n\nKnowing where but not what. Selecting an object does not entail knowing anything about it, apart from its location\n\nAnd it’s actually worse than this because\nDon’t know about motion direction possibly without focused attention ()\n\nLocation selection and updating is split-brain\n\nDon’t know much about generalization to other tasks\n\nFeature binding requires focused attention\n\nTracking experiments that show you can’t use conjunctions\nIncluding spatial relations Holcombe, Linares, Pashkam\n\nDifferent forms of attention work together\n\nFeature attention exists but is independent of attention\n\nUnitary (not split-brain) cognition contaminates tasks\n\n\nA unitary (not hemisphere-specific) resource can also contribute to object selection, which can interfere with researcher efforts to study capacity limits.\n\n\nSpatial and temporal crowding constrain selection\n\n\nonly temporal crowding is markedly worsened as the number of objects to select increases.\n\nTemporal crowding screws up feature binding\nSurface segregation is an exception"
+  },
+  {
+    "objectID": "talk.html#the-relationship-of-multiple-object-tracking-to-other-forms-of-attention",
+    "href": "talk.html#the-relationship-of-multiple-object-tracking-to-other-forms-of-attention",
+    "title": "EPC 2023",
+    "section": "The relationship of multiple object tracking to other forms of attention",
+    "text": "The relationship of multiple object tracking to other forms of attention\n\nFeature attention is global\nTracking is hemifield-specific\n\nRemaining questions:\n\nIs temporal resolution hemifield-specific?\nWhat about statistical perception?\nIf you limit time of attention availability with my circular displays, does this prevent doing other tasks (dual tasks)?"
+  }
+]

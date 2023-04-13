@@ -1,0 +1,360 @@
+---
+title: "EPC 2023"
+title-slide-attributes:
+    data-background-image: "images/2targets3objectsPerArray.gif"
+    data-background-size: contain
+    data-background-opacity: ".1"
+format:
+  revealjs:
+    theme: [default, mystyle.scss]
+    incremental: true
+    center: false
+    controls: true  
+---
+
+## Five lessons from studies of multiple object tracking {background-color="black" background-image="images/2targets3objectsPerArray.gif"}
+
+#### Alex Holcombe
+
+#### University of Sydney
+
+##
+
+{{< video https://www.youtube.com/embed/lAQM4QJRYV8 >}}
+
+{{< video MOTdemoLukavsky.mp4 >}}
+
+## 
+
+![](images/attendToPartsOfSoccerPlayers.png)
+
+## 
+
+<!--{.absolute top=0 left=0}-->
+
+![](images/bookcover.png)
+
+Free at
+
+https://tracking.whatanimalssee.com
+
+::: notes
+When I wrote this book one of the things I noticed was that to explain MOT and its role in the mind one mainly ended up explaining things about the mind that we know from other paradigms.
+
+In that way, visual attention and memory are a coherent scientific field. I mean that findings from paradigms other than MOT generalize to MOT too.
+
+Not every field of psychology is like that.
+This is not a unified theory of tracking. That would be a different talk. This is broad empirical generalizations, the ingredients to a unified theory.
+:::
+
+## WikiJournal of Science
+
+![](images/WikiJSci.jpeg)
+
+Open access • Publication charge free • Public peer review • Wikipedia-integrated
+
+<!--https://en.wikiversity.org/wiki/WikiJournal_Preprints/Multiple_object_tracking-->
+
+::: notes
+I'm an associate editor there
+:::
+
+## WikiJournal Preprints
+
+![](images/wikipreprint.png)
+
+https://en.wikiversity.org/wiki/WikiJournal_Preprints/Multiple_object_tracking
+
+## Five lessons
+
+
+
+## 1. Feature binding requires focused attention
+
+![](images/inspectorCartoon.png)
+
+## 1. Feature binding requires focused attention
+
+### Color attention is sufficient
+
+Targets: [1]{style="color: green;"}[1]{style="color: blue;"}[1]{style="color: brown;"}
+
+Distractors: [1]{style="color: red;"}[1]{style="color: pink;"}[1]{style="color: blue;"}
+
+### Shape attention is sufficient
+
+Targets: [1]{style="color: green;"}[2]{style="color: green;"}[3]{style="color: green;"}
+
+Distractors: [4]{style="color: green;"}[5]{style="color: green;"}[6]{style="color: green;"}
+
+## 1. Feature binding requires focused attention
+
+### Color attention is sufficient
+
+Targets: [1]{style="color: green;"}[1]{style="color: blue;"}[1]{style="color: brown;"}
+
+Distractors: [1]{style="color: red;"}[1]{style="color: pink;"}[1]{style="color: blue;"}
+
+### Shape attention is sufficient
+
+Targets: [1]{style="color: green;"}[2]{style="color: green;"}[3]{style="color: green;"}
+
+Distractors: [4]{style="color: green;"}[5]{style="color: green;"}[6]{style="color: green;"}
+
+### Color-shape
+
+Targets: [1]{style="color: green;"}[2]{style="color: blue;"}[3]{style="color: brown;"}
+
+Distractors: [2]{style="color: red;"}[3]{style="color: blue;"}[1]{style="color: brown;"}
+
+::: notes
+What you learn in every cognitive psychology class
+:::
+
+## 1. Feature binding requires focused attention
+
+![](images/inspectorCartoon.png)
+
+> Did the enhancement from distinct identities extend to a condition where the objects were distinct in terms of *a combination of colour and digit, but not in colour or digit alone*? Our results clearly showed that it *did not*.
+
+Makovski & Jiang (2009)
+
+
+::: notes
+Treisman famously
+:::
+
+## 2. Where, but not what!
+
+![](images/puzzling.png)
+
+## 2. Where, but not what!
+
+![](images/whereButNotWhat.png)
+
+- Features are not updated as an object moves.
+
+- VSTM remains stuck in the past.
+
+
+::: notes
+Horowitz et al. (2007), who had participants track targets with unique appearances - the stimuli were cartoon animals in one set of experiments. At the end of each trial, the targets moved behind occluders so that their identities were no longer visible. Participants were asked where a particular target (say, the cartoon rabbit) had gone - that is, which occluder it was hiding behind. This type of task had been dubbed "multiple identity tracking" by Oksama and Hyönä (2004). Performance was better than chance, but was worse than the standard MOT task of reporting target locations irrespective of which target a location belonged to.
+
+Not fully anticipated from other visual attention paradigms. Somewhat suggested by FIT.
+
+Distinct process Yet to be integrated with VSTM theories. <!--Like it came up with Brad Wyble's recent theory-->
+:::
+
+## 3. Split-brain selection
+
+![](splitbrain.png)
+
+```{=html}
+<!--
+- MOT may isolate location selection
+- "spatial selection appears to occur at a hemifield-specific stage, with other features subsequently updated and linked in at a field-wide stage."-->
+```
+## 3. Split-brain selection
+
+![](splitbrainWithPools.png)
+
+- A remarkable ~90% independence
+- Semi-independent limits for location selection and updating
+
+## The architecture of selection
+
+::: notes
+A lot of people are studying the top or the bottom. Almost nobody's studying the middle We didn't have a way to get at it before.
+:::
+
+<!--Potentially add an object creation process-->
+
+```{r, echo=FALSE, fig.cap = ""}
+DiagrammeR::grViz("digraph {
+
+graph [layout = dot, rankdir = BT]
+
+# define the global styles of the nodes. We can override these in box if we wish
+node [shape = rectangle, style = filled, fillcolor = Linen]
+
+#Define the nodes
+L [label = 'LH retinotopy', width=5, height=1, fillcolor = firebrick]
+R [label = 'RH retinotopy', width=5, height=1, fillcolor = firebrick]
+selectnLH [label =  'parietal selection']
+selectnRH [label =  'parietal selection']
+output [label = 'Visual Working Memory', width=6, height=2, color=White, fillcolor=gold1]
+
+
+# edge definitions with the node IDs
+edge [label='  bottleneck', penwidth=.3]
+L  -> selectnLH;
+edge [label='', penwidth=3]
+selectnLH -> output
+
+edge [label='  bottleneck', penwidth=.3]
+R -> selectnRH
+edge [label='', penwidth=3]
+selectnRH -> output
+
+
+}")
+```
+
+## 4. Unitary cognition contaminates many studies
+
+![](images/attendToPartsOfSoccerPlayers.png)
+
+## 4. Unitary cognition contaminates many studies
+
+![](images/trackingCognitiveSpotlight.png)
+- Always test for hemifield independence
+
+::: notes
+With tracking you can actually isolate a hemisphere-specific process.
+
+I read a lot of papers that say that this factor or that factor influence MOT performance, and they imply that they've revealed something about how the tracking process works, but actually it could just be cognition following a single target and boosting performance.
+
+A role for 
+:::
+
+600px-KND_+_N_2wikimedia.jpg
+
+## 5. Crowding constrains selection
+
+```{r, echo=FALSE, fig.cap = ""}
+DiagrammeR::grViz("digraph {
+graph [layout = dot, rankdir = LR]
+
+# define the global styles of the nodes. We can override these in box if we wish
+node [shape = rectangle, style = filled, color=White, fillcolor = White, fontsize = 40]
+nodesep=0.02;
+
+a [label = 'O']
+fixation [label =  '', shape=circle, fillcolor=Black, width=.2, height=.2]
+b [label = ' ']
+c [label = ' ']
+d [label = 'J']
+e [label = ' ']
+e2 [label = ' ']
+e3 [label = 'S']
+
+fff [label='']
+ff [label='']
+f [label = '']
+g [label = 'R']
+h [label = 'L']
+i [label = 'H']
+j [label = 'Y']
+k [label = 'M']
+l [label = '']
+ll [label='']
+lll [label='']
+
+# edge definitions with the node IDs
+edge [label='', penwidth=0, arrowsize=0]
+a  -> b;
+edge [label='', penwidth=0, arrowsize=0]
+b -> c
+edge [label='', penwidth=0, arrowsize=0]
+c -> d
+edge [label='', penwidth=0, arrowsize=0]
+d -> e
+edge [label='', penwidth=0, arrowsize=0]
+e -> e2
+edge [label='', penwidth=0, arrowsize=0]
+e2 -> e3
+edge [label='', penwidth=0, arrowsize=0]
+e3 -> fixation
+
+edge [label='', penwidth=0, arrowsize=0]
+fixation -> fff
+edge [label='', penwidth=0, arrowsize=0]
+fff -> ff
+edge [label='', penwidth=0, arrowsize=0]
+ff -> f
+edge [label='', penwidth=0, arrowsize=0]
+f -> g
+edge [label='', penwidth=0, arrowsize=0]
+g -> h
+edge [label='', penwidth=0, arrowsize=0]
+h -> i
+edge [label='', penwidth=0, arrowsize=0]
+i -> j
+edge [label='', penwidth=0, arrowsize=0]
+j -> k
+edge [label='', penwidth=0, arrowsize=0]
+k -> l
+edge [label='', penwidth=0, arrowsize=0]
+l -> ll
+edge [label='', penwidth=0, arrowsize=0]
+ll -> lll
+}")
+```
+
+- Spatial interference
+- Does not get much worse with more targets
+
+## 5. Temporal crowding constrains selection
+
+![https://trackinglimits.whatanimalssee.com/speedAndTime.html#temporal-limits-on-tracking](images/2targets3objectsPerArray.gif)
+## 5. Temporal crowding constrains selection
+
+![https://trackinglimits.whatanimalssee.com/speedAndTime.html#temporal-limits-on-tracking](images/2targets9objectsPerArray.gif)
+
+
+
+## 5. Temporal crowding constrains selection
+
+![](images/temporalAndSpeedLimits.png)
+
+- Temporal interference (Verstraten, Cavanagh, & LaBianca, 2000)
+- Much worse with more targets (Holcombe & Chen, 2013)
+- Hard to explain without serial switching
+- Temporal interference is not understood in other paradigms (Tkacz-Domb & Yeshurun, 2021)
+
+## Five lessons from studies of multiple object tracking
+
+1. Feature binding requires focused attention
+2. Where, but not what!
+3. Split-brain selection
+4. Unitary cognition contaminates many studies
+5. Spatial and temporal crowding constrains selection
+
+::: notes
+With tracking you can actually isolate a hemisphere-specific process.
+
+:::
+
+## Five lessons for attention from studies of multiple object tracking
+
+1.  Knowing where but not what. Selecting an object does not entail knowing anything about it, apart from its location
+    -   And it's actually worse than this because
+    -   Don't know about motion direction possibly without focused attention ()
+2.  Location selection and updating is split-brain
+    -   Don't know much about generalization to other tasks
+3.  Feature binding requires focused attention
+    -   Tracking experiments that show you can't use conjunctions
+    -   Including spatial relations Holcombe, Linares, Pashkam
+4.  Different forms of attention work together
+    -   Feature attention exists but is independent of attention
+5.  Unitary (not split-brain) cognition contaminates tasks
+
+-   A unitary (not hemisphere-specific) resource can also contribute to object selection, which can interfere with researcher efforts to study capacity limits.
+
+6.  Spatial and temporal crowding constrain selection
+
+-   only temporal crowding is markedly worsened as the number of objects to select increases.\
+-   Temporal crowding screws up feature binding
+-   Surface segregation is an exception
+
+## The relationship of multiple object tracking to other forms of attention
+
+-   Feature attention is global
+-   Tracking is hemifield-specific
+
+Remaining questions:
+
+-   Is temporal resolution hemifield-specific?
+-   What about statistical perception?
+-   If you limit time of attention availability with my circular displays, does this prevent doing other tasks (dual tasks)?
+

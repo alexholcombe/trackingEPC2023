@@ -11,6 +11,7 @@ format:
     center: false
     controls: true  
 ---
+<!-- For github deployment, followed these instructions for github pages https://quarto.org/docs/publishing/github-pages.html -->
 
 ## Five lessons from studies of multiple object tracking {background-color="black" background-image="images/2targets3objectsPerArray.gif"}
 
@@ -101,7 +102,7 @@ Targets: [1]{style="color: green;"}[2]{style="color: green;"}[3]{style="color: g
 
 Distractors: [4]{style="color: green;"}[5]{style="color: green;"}[6]{style="color: green;"}
 
-### Color-shape
+### Color-shape? No!
 
 Targets: [1]{style="color: green;"}[2]{style="color: blue;"}[3]{style="color: brown;"}
 
@@ -126,15 +127,19 @@ Treisman famously
 
 ## 2. Where, but not what!
 
+<BR><BR>
+
 ![](images/puzzling.png)
 
 ## 2. Where, but not what!
 
+<BR><BR>
+
 ![](images/whereButNotWhat.png)
 
-- Features are not updated as an object moves.
+- Features are updated poorly as an object moves, or not at all (e.g. Horowitz et al., 2007)
 
-- VSTM remains stuck in the past.
+- VSTM remains stuck in the past
 
 
 ::: notes
@@ -161,7 +166,7 @@ Distinct process Yet to be integrated with VSTM theories. <!--Like it came up wi
 - A remarkable ~90% independence
 - Semi-independent limits for location selection and updating
 
-## The architecture of selection
+##
 
 ::: notes
 A lot of people are studying the top or the bottom. Almost nobody's studying the middle We didn't have a way to get at it before.
@@ -207,7 +212,8 @@ selectnRH -> output
 ## 4. Unitary cognition contaminates many studies
 
 ![](images/trackingCognitiveSpotlight.png)
-- Always test for hemifield independence
+- Always test for hemifield independence!
+If the effect of the factor is twice as big when you distribute targets across hemifields, it's not cognitive contamination.
 
 ::: notes
 With tracking you can actually isolate a hemisphere-specific process.
@@ -216,8 +222,6 @@ I read a lot of papers that say that this factor or that factor influence MOT pe
 
 A role for 
 :::
-
-600px-KND_+_N_2wikimedia.jpg
 
 ## 5. Crowding constrains selection
 
@@ -238,6 +242,8 @@ e [label = ' ']
 e2 [label = ' ']
 e3 [label = 'S']
 
+#add some blanks to help space the actual letters together
+ffff [label='']
 fff [label='']
 ff [label='']
 f [label = '']
@@ -249,6 +255,7 @@ k [label = 'M']
 l [label = '']
 ll [label='']
 lll [label='']
+llll [label='']
 
 # edge definitions with the node IDs
 edge [label='', penwidth=0, arrowsize=0]
@@ -267,7 +274,9 @@ edge [label='', penwidth=0, arrowsize=0]
 e3 -> fixation
 
 edge [label='', penwidth=0, arrowsize=0]
-fixation -> fff
+fixation -> ffff
+edge [label='', penwidth=0, arrowsize=0]
+ffff -> fff
 edge [label='', penwidth=0, arrowsize=0]
 fff -> ff
 edge [label='', penwidth=0, arrowsize=0]
@@ -288,15 +297,18 @@ edge [label='', penwidth=0, arrowsize=0]
 l -> ll
 edge [label='', penwidth=0, arrowsize=0]
 ll -> lll
+edge [label='', penwidth=0, arrowsize=0]
+lll -> llll
 }")
 ```
 
 - Spatial interference
-- Does not get much worse with more targets
+- Not worse with more targets (Holcombe, Chen, & Howe, 2014)
 
 ## 5. Temporal crowding constrains selection
 
 ![https://trackinglimits.whatanimalssee.com/speedAndTime.html#temporal-limits-on-tracking](images/2targets3objectsPerArray.gif)
+
 ## 5. Temporal crowding constrains selection
 
 ![https://trackinglimits.whatanimalssee.com/speedAndTime.html#temporal-limits-on-tracking](images/2targets9objectsPerArray.gif)

@@ -335,6 +335,10 @@
 </div>
 
 </section>
+<section class="slide level2">
+
+<!-- For github deployment, followed these instructions for github pages https://quarto.org/docs/publishing/github-pages.html -->
+</section>
 <section id="five-lessons-from-studies-of-multiple-object-tracking" class="slide level2" data-background-color="black" data-background-image="images/2targets3objectsPerArray.gif">
 <h2>Five lessons from studies of multiple object tracking</h2>
 <h4 id="alex-holcombe">Alex Holcombe</h4>
@@ -419,7 +423,7 @@
 <h3 id="shape-attention-is-sufficient-1">Shape attention is sufficient</h3>
 <p>Targets: <span style="color: green;">1</span><span style="color: green;">2</span><span style="color: green;">3</span></p>
 <p>Distractors: <span style="color: green;">4</span><span style="color: green;">5</span><span style="color: green;">6</span></p>
-<h3 id="color-shape">Color-shape</h3>
+<h3 id="color-shape-no">Color-shape? No!</h3>
 <p>Targets: <span style="color: green;">1</span><span style="color: blue;">2</span><span style="color: brown;">3</span></p>
 <p>Distractors: <span style="color: red;">2</span><span style="color: blue;">3</span><span style="color: brown;">1</span></p>
 <aside class="notes">
@@ -459,14 +463,16 @@
 </section>
 <section id="where-but-not-what" class="slide level2">
 <h2>2. Where, but not what!</h2>
+<p><br><br></p>
 
 <img data-src="images/puzzling.png" class="r-stretch"></section>
 <section id="where-but-not-what-1" class="slide level2">
 <h2>2. Where, but not what!</h2>
+<p><br><br></p>
 
 <img data-src="images/whereButNotWhat.png" class="r-stretch"><ul>
-<li class="fragment"><p>Features are not updated as an object moves.</p></li>
-<li class="fragment"><p>VSTM remains stuck in the past.</p></li>
+<li class="fragment"><p>Features are updated poorly as an object moves, or not at all (e.g.&nbsp;Horowitz et al., 2007)</p></li>
+<li class="fragment"><p>VSTM remains stuck in the past</p></li>
 </ul>
 <aside class="notes">
 <p>Horowitz et al.&nbsp;(2007), who had participants track targets with unique appearances - the stimuli were cartoon animals in one set of experiments. At the end of each trial, the targets moved behind occluders so that their identities were no longer visible. Participants were asked where a particular target (say, the cartoon rabbit) had gone - that is, which occluder it was hiding behind. This type of task had been dubbed “multiple identity tracking” by Oksama and Hyönä (2004). Performance was better than chance, but was worse than the standard MOT task of reporting target locations irrespective of which target a location belonged to.</p>
@@ -499,8 +505,8 @@
 <li class="fragment">Semi-independent limits for location selection and updating</li>
 </ul>
 </section>
-<section id="the-architecture-of-selection" class="slide level2">
-<h2>The architecture of selection</h2>
+<section id="section-3" class="slide level2">
+<h2></h2>
 <aside class="notes">
 <p>A lot of people are studying the top or the bottom. Almost nobody’s studying the middle We didn’t have a way to get at it before.</p>
 <style type="text/css">
@@ -517,8 +523,8 @@
 <!--Potentially add an object creation process-->
 <div class="cell">
 <div class="cell-output-display">
-<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-74c09d20573e89e5d2f1" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-74c09d20573e89e5d2f1">{"x":{"diagram":"digraph {\n\ngraph [layout = dot, rankdir = BT]\n\n# define the global styles of the nodes. We can override these in box if we wish\nnode [shape = rectangle, style = filled, fillcolor = Linen]\n\n#Define the nodes\nL [label = \"LH retinotopy\", width=5, height=1, fillcolor = firebrick]\nR [label = \"RH retinotopy\", width=5, height=1, fillcolor = firebrick]\nselectnLH [label =  \"parietal selection\"]\nselectnRH [label =  \"parietal selection\"]\noutput [label = \"Visual Working Memory\", width=6, height=2, color=White, fillcolor=gold1]\n\n\n# edge definitions with the node IDs\nedge [label=\"  bottleneck\", penwidth=.3]\nL  -> selectnLH;\nedge [label=\"\", penwidth=3]\nselectnLH -> output\n\nedge [label=\"  bottleneck\", penwidth=.3]\nR -> selectnRH\nedge [label=\"\", penwidth=3]\nselectnRH -> output\n\n\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-588bee1bc2e3efbd2f35" style="width:960px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-588bee1bc2e3efbd2f35">{"x":{"diagram":"digraph {\n\ngraph [layout = dot, rankdir = BT]\n\n# define the global styles of the nodes. We can override these in box if we wish\nnode [shape = rectangle, style = filled, fillcolor = Linen]\n\n#Define the nodes\nL [label = \"LH retinotopy\", width=5, height=1, fillcolor = firebrick]\nR [label = \"RH retinotopy\", width=5, height=1, fillcolor = firebrick]\nselectnLH [label =  \"parietal selection\"]\nselectnRH [label =  \"parietal selection\"]\noutput [label = \"Visual Working Memory\", width=6, height=2, color=White, fillcolor=gold1]\n\n\n# edge definitions with the node IDs\nedge [label=\"  bottleneck\", penwidth=.3]\nL  -> selectnLH;\nedge [label=\"\", penwidth=3]\nselectnLH -> output\n\nedge [label=\"  bottleneck\", penwidth=.3]\nR -> selectnRH\nedge [label=\"\", penwidth=3]\nselectnRH -> output\n\n\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
@@ -528,7 +534,7 @@
 <img data-src="images/attendToPartsOfSoccerPlayers.png" class="r-stretch"></section>
 <section id="unitary-cognition-contaminates-many-studies-1" class="slide level2">
 <h2>4. Unitary cognition contaminates many studies</h2>
-<p><img data-src="images/trackingCognitiveSpotlight.png"> - Always test for hemifield independence</p>
+<p><img data-src="images/trackingCognitiveSpotlight.png"> - Always test for hemifield independence! If the effect of the factor is twice as big when you distribute targets across hemifields, it’s not cognitive contamination.</p>
 <aside class="notes">
 <p>With tracking you can actually isolate a hemisphere-specific process.</p>
 <p>I read a lot of papers that say that this factor or that factor influence MOT performance, and they imply that they’ve revealed something about how the tracking process works, but actually it could just be cognition following a single target and boosting performance.</p>
@@ -544,32 +550,29 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-<p>600px-KND_+_N_2wikimedia.jpg</p>
 </section>
 <section id="crowding-constrains-selection" class="slide level2">
 <h2>5. Crowding constrains selection</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-9d08a8081705aa666782" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-9d08a8081705aa666782">{"x":{"diagram":"digraph {\ngraph [layout = dot, rankdir = LR]\n\n# define the global styles of the nodes. We can override these in box if we wish\nnode [shape = rectangle, style = filled, color=White, fillcolor = White, fontsize = 40]\nnodesep=0.02;\n\na [label = \"O\"]\nfixation [label =  \"\", shape=circle, fillcolor=Black, width=.2, height=.2]\nb [label = \" \"]\nc [label = \" \"]\nd [label = \"J\"]\ne [label = \" \"]\ne2 [label = \" \"]\ne3 [label = \"S\"]\n\nfff [label=\"\"]\nff [label=\"\"]\nf [label = \"\"]\ng [label = \"R\"]\nh [label = \"L\"]\ni [label = \"H\"]\nj [label = \"Y\"]\nk [label = \"M\"]\nl [label = \"\"]\nll [label=\"\"]\nlll [label=\"\"]\n\n# edge definitions with the node IDs\nedge [label=\"\", penwidth=0, arrowsize=0]\na  -> b;\nedge [label=\"\", penwidth=0, arrowsize=0]\nb -> c\nedge [label=\"\", penwidth=0, arrowsize=0]\nc -> d\nedge [label=\"\", penwidth=0, arrowsize=0]\nd -> e\nedge [label=\"\", penwidth=0, arrowsize=0]\ne -> e2\nedge [label=\"\", penwidth=0, arrowsize=0]\ne2 -> e3\nedge [label=\"\", penwidth=0, arrowsize=0]\ne3 -> fixation\n\nedge [label=\"\", penwidth=0, arrowsize=0]\nfixation -> fff\nedge [label=\"\", penwidth=0, arrowsize=0]\nfff -> ff\nedge [label=\"\", penwidth=0, arrowsize=0]\nff -> f\nedge [label=\"\", penwidth=0, arrowsize=0]\nf -> g\nedge [label=\"\", penwidth=0, arrowsize=0]\ng -> h\nedge [label=\"\", penwidth=0, arrowsize=0]\nh -> i\nedge [label=\"\", penwidth=0, arrowsize=0]\ni -> j\nedge [label=\"\", penwidth=0, arrowsize=0]\nj -> k\nedge [label=\"\", penwidth=0, arrowsize=0]\nk -> l\nedge [label=\"\", penwidth=0, arrowsize=0]\nl -> ll\nedge [label=\"\", penwidth=0, arrowsize=0]\nll -> lll\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-cd2695feedbe3e2d9f10" style="width:960px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-cd2695feedbe3e2d9f10">{"x":{"diagram":"digraph {\ngraph [layout = dot, rankdir = LR]\n\n# define the global styles of the nodes. We can override these in box if we wish\nnode [shape = rectangle, style = filled, color=White, fillcolor = White, fontsize = 40]\nnodesep=0.02;\n\na [label = \"O\"]\nfixation [label =  \"\", shape=circle, fillcolor=Black, width=.2, height=.2]\nb [label = \" \"]\nc [label = \" \"]\nd [label = \"J\"]\ne [label = \" \"]\ne2 [label = \" \"]\ne3 [label = \"S\"]\n\n#add some blanks to help space the actual letters together\nffff [label=\"\"]\nfff [label=\"\"]\nff [label=\"\"]\nf [label = \"\"]\ng [label = \"R\"]\nh [label = \"L\"]\ni [label = \"H\"]\nj [label = \"Y\"]\nk [label = \"M\"]\nl [label = \"\"]\nll [label=\"\"]\nlll [label=\"\"]\nllll [label=\"\"]\n\n# edge definitions with the node IDs\nedge [label=\"\", penwidth=0, arrowsize=0]\na  -> b;\nedge [label=\"\", penwidth=0, arrowsize=0]\nb -> c\nedge [label=\"\", penwidth=0, arrowsize=0]\nc -> d\nedge [label=\"\", penwidth=0, arrowsize=0]\nd -> e\nedge [label=\"\", penwidth=0, arrowsize=0]\ne -> e2\nedge [label=\"\", penwidth=0, arrowsize=0]\ne2 -> e3\nedge [label=\"\", penwidth=0, arrowsize=0]\ne3 -> fixation\n\nedge [label=\"\", penwidth=0, arrowsize=0]\nfixation -> ffff\nedge [label=\"\", penwidth=0, arrowsize=0]\nffff -> fff\nedge [label=\"\", penwidth=0, arrowsize=0]\nfff -> ff\nedge [label=\"\", penwidth=0, arrowsize=0]\nff -> f\nedge [label=\"\", penwidth=0, arrowsize=0]\nf -> g\nedge [label=\"\", penwidth=0, arrowsize=0]\ng -> h\nedge [label=\"\", penwidth=0, arrowsize=0]\nh -> i\nedge [label=\"\", penwidth=0, arrowsize=0]\ni -> j\nedge [label=\"\", penwidth=0, arrowsize=0]\nj -> k\nedge [label=\"\", penwidth=0, arrowsize=0]\nk -> l\nedge [label=\"\", penwidth=0, arrowsize=0]\nl -> ll\nedge [label=\"\", penwidth=0, arrowsize=0]\nll -> lll\nedge [label=\"\", penwidth=0, arrowsize=0]\nlll -> llll\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <ul>
 <li class="fragment">Spatial interference</li>
-<li class="fragment">Does not get much worse with more targets</li>
+<li class="fragment">Not worse with more targets (Holcombe, Chen, &amp; Howe, 2014)</li>
 </ul>
 </section>
 <section id="temporal-crowding-constrains-selection" class="slide level2">
 <h2>5. Temporal crowding constrains selection</h2>
-<p><img data-src="images/2targets3objectsPerArray.gif" alt="https://trackinglimits.whatanimalssee.com/speedAndTime.html#temporal-limits-on-tracking"> ## 5. Temporal crowding constrains selection</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/2targets9objectsPerArray.gif"></p>
-<p></p><figcaption>https://trackinglimits.whatanimalssee.com/speedAndTime.html#temporal-limits-on-tracking</figcaption><p></p>
-</figure>
-</div>
-</section>
+
+<img data-src="images/2targets3objectsPerArray.gif" class="r-stretch quarto-figure-center"><p class="caption">https://trackinglimits.whatanimalssee.com/speedAndTime.html#temporal-limits-on-tracking</p></section>
 <section id="temporal-crowding-constrains-selection-1" class="slide level2">
+<h2>5. Temporal crowding constrains selection</h2>
+
+<img data-src="images/2targets9objectsPerArray.gif" class="r-stretch quarto-figure-center"><p class="caption">https://trackinglimits.whatanimalssee.com/speedAndTime.html#temporal-limits-on-tracking</p></section>
+<section id="temporal-crowding-constrains-selection-2" class="slide level2">
 <h2>5. Temporal crowding constrains selection</h2>
 
 <img data-src="images/temporalAndSpeedLimits.png" class="r-stretch"><ul>

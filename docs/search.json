@@ -152,5 +152,12 @@
     "title": "EPC 2023",
     "section": "The relationship of multiple object tracking to other forms of attention",
     "text": "The relationship of multiple object tracking to other forms of attention\n\nFeature attention is global\nTracking is hemifield-specific\n\nRemaining questions:\n\nIs temporal resolution hemifield-specific?\nWhat about statistical perception?\nIf you limit time of attention availability with my circular displays, does this prevent doing other tasks (dual tasks)?"
+  },
+  {
+    "objectID": "talk.html#section",
+    "href": "talk.html#section",
+    "title": "EPC 2023",
+    "section": "",
+    "text": "{{<video https://www.youtube.com/embed/lAQM4QJRYV8 >}}\n{{<video images/MOTdemoLukavsky.mp4>}}"
   }
 ]

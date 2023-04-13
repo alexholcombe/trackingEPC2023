@@ -343,7 +343,7 @@
 <section id="section" class="slide level2">
 <h2></h2>
 <iframe src="https://www.youtube.com/embed/lAQM4QJRYV8" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-<video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="MOTdemoLukavsky.mp4"></video>
+<video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="images/MOTdemoLukavsky.mp4"></video>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
@@ -490,11 +490,11 @@
 <!--
 - MOT may isolate location selection
 - "spatial selection appears to occur at a hemifield-specific stage, with other features subsequently updated and linked in at a field-wide stage."-->
-<img data-src="splitbrain.png" class="r-stretch"></section>
+<img data-src="images/splitbrain.png" class="r-stretch"></section>
 <section id="split-brain-selection-1" class="slide level2">
 <h2>3. Split-brain selection</h2>
 
-<img data-src="splitbrainWithPools.png" class="r-stretch"><ul>
+<img data-src="images/splitbrainWithPools.png" class="r-stretch"><ul>
 <li class="fragment">A remarkable ~90% independence</li>
 <li class="fragment">Semi-independent limits for location selection and updating</li>
 </ul>
@@ -517,8 +517,8 @@
 <!--Potentially add an object creation process-->
 <div class="cell">
 <div class="cell-output-display">
-<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-20a73f8fe633caa50cc7" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-20a73f8fe633caa50cc7">{"x":{"diagram":"digraph {\n\ngraph [layout = dot, rankdir = BT]\n\n# define the global styles of the nodes. We can override these in box if we wish\nnode [shape = rectangle, style = filled, fillcolor = Linen]\n\n#Define the nodes\nL [label = \"LH retinotopy\", width=5, height=1, fillcolor = firebrick]\nR [label = \"RH retinotopy\", width=5, height=1, fillcolor = firebrick]\nselectnLH [label =  \"parietal selection\"]\nselectnRH [label =  \"parietal selection\"]\noutput [label = \"Visual Working Memory\", width=6, height=2, color=White, fillcolor=gold1]\n\n\n# edge definitions with the node IDs\nedge [label=\"  bottleneck\", penwidth=.3]\nL  -> selectnLH;\nedge [label=\"\", penwidth=3]\nselectnLH -> output\n\nedge [label=\"  bottleneck\", penwidth=.3]\nR -> selectnRH\nedge [label=\"\", penwidth=3]\nselectnRH -> output\n\n\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-74c09d20573e89e5d2f1" style="width:960px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-74c09d20573e89e5d2f1">{"x":{"diagram":"digraph {\n\ngraph [layout = dot, rankdir = BT]\n\n# define the global styles of the nodes. We can override these in box if we wish\nnode [shape = rectangle, style = filled, fillcolor = Linen]\n\n#Define the nodes\nL [label = \"LH retinotopy\", width=5, height=1, fillcolor = firebrick]\nR [label = \"RH retinotopy\", width=5, height=1, fillcolor = firebrick]\nselectnLH [label =  \"parietal selection\"]\nselectnRH [label =  \"parietal selection\"]\noutput [label = \"Visual Working Memory\", width=6, height=2, color=White, fillcolor=gold1]\n\n\n# edge definitions with the node IDs\nedge [label=\"  bottleneck\", penwidth=.3]\nL  -> selectnLH;\nedge [label=\"\", penwidth=3]\nselectnLH -> output\n\nedge [label=\"  bottleneck\", penwidth=.3]\nR -> selectnRH\nedge [label=\"\", penwidth=3]\nselectnRH -> output\n\n\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
@@ -550,8 +550,8 @@
 <h2>5. Crowding constrains selection</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-252219ca6d8f8fdced53" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-252219ca6d8f8fdced53">{"x":{"diagram":"digraph {\ngraph [layout = dot, rankdir = LR]\n\n# define the global styles of the nodes. We can override these in box if we wish\nnode [shape = rectangle, style = filled, color=White, fillcolor = White, fontsize = 40]\nnodesep=0.02;\n\na [label = \"O\"]\nfixation [label =  \"\", shape=circle, fillcolor=Black, width=.2, height=.2]\nb [label = \" \"]\nc [label = \" \"]\nd [label = \"J\"]\ne [label = \" \"]\ne2 [label = \" \"]\ne3 [label = \"S\"]\n\nfff [label=\"\"]\nff [label=\"\"]\nf [label = \"\"]\ng [label = \"R\"]\nh [label = \"L\"]\ni [label = \"H\"]\nj [label = \"Y\"]\nk [label = \"M\"]\nl [label = \"\"]\nll [label=\"\"]\nlll [label=\"\"]\n\n# edge definitions with the node IDs\nedge [label=\"\", penwidth=0, arrowsize=0]\na  -> b;\nedge [label=\"\", penwidth=0, arrowsize=0]\nb -> c\nedge [label=\"\", penwidth=0, arrowsize=0]\nc -> d\nedge [label=\"\", penwidth=0, arrowsize=0]\nd -> e\nedge [label=\"\", penwidth=0, arrowsize=0]\ne -> e2\nedge [label=\"\", penwidth=0, arrowsize=0]\ne2 -> e3\nedge [label=\"\", penwidth=0, arrowsize=0]\ne3 -> fixation\n\nedge [label=\"\", penwidth=0, arrowsize=0]\nfixation -> fff\nedge [label=\"\", penwidth=0, arrowsize=0]\nfff -> ff\nedge [label=\"\", penwidth=0, arrowsize=0]\nff -> f\nedge [label=\"\", penwidth=0, arrowsize=0]\nf -> g\nedge [label=\"\", penwidth=0, arrowsize=0]\ng -> h\nedge [label=\"\", penwidth=0, arrowsize=0]\nh -> i\nedge [label=\"\", penwidth=0, arrowsize=0]\ni -> j\nedge [label=\"\", penwidth=0, arrowsize=0]\nj -> k\nedge [label=\"\", penwidth=0, arrowsize=0]\nk -> l\nedge [label=\"\", penwidth=0, arrowsize=0]\nl -> ll\nedge [label=\"\", penwidth=0, arrowsize=0]\nll -> lll\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-9d08a8081705aa666782" style="width:960px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-9d08a8081705aa666782">{"x":{"diagram":"digraph {\ngraph [layout = dot, rankdir = LR]\n\n# define the global styles of the nodes. We can override these in box if we wish\nnode [shape = rectangle, style = filled, color=White, fillcolor = White, fontsize = 40]\nnodesep=0.02;\n\na [label = \"O\"]\nfixation [label =  \"\", shape=circle, fillcolor=Black, width=.2, height=.2]\nb [label = \" \"]\nc [label = \" \"]\nd [label = \"J\"]\ne [label = \" \"]\ne2 [label = \" \"]\ne3 [label = \"S\"]\n\nfff [label=\"\"]\nff [label=\"\"]\nf [label = \"\"]\ng [label = \"R\"]\nh [label = \"L\"]\ni [label = \"H\"]\nj [label = \"Y\"]\nk [label = \"M\"]\nl [label = \"\"]\nll [label=\"\"]\nlll [label=\"\"]\n\n# edge definitions with the node IDs\nedge [label=\"\", penwidth=0, arrowsize=0]\na  -> b;\nedge [label=\"\", penwidth=0, arrowsize=0]\nb -> c\nedge [label=\"\", penwidth=0, arrowsize=0]\nc -> d\nedge [label=\"\", penwidth=0, arrowsize=0]\nd -> e\nedge [label=\"\", penwidth=0, arrowsize=0]\ne -> e2\nedge [label=\"\", penwidth=0, arrowsize=0]\ne2 -> e3\nedge [label=\"\", penwidth=0, arrowsize=0]\ne3 -> fixation\n\nedge [label=\"\", penwidth=0, arrowsize=0]\nfixation -> fff\nedge [label=\"\", penwidth=0, arrowsize=0]\nfff -> ff\nedge [label=\"\", penwidth=0, arrowsize=0]\nff -> f\nedge [label=\"\", penwidth=0, arrowsize=0]\nf -> g\nedge [label=\"\", penwidth=0, arrowsize=0]\ng -> h\nedge [label=\"\", penwidth=0, arrowsize=0]\nh -> i\nedge [label=\"\", penwidth=0, arrowsize=0]\ni -> j\nedge [label=\"\", penwidth=0, arrowsize=0]\nj -> k\nedge [label=\"\", penwidth=0, arrowsize=0]\nk -> l\nedge [label=\"\", penwidth=0, arrowsize=0]\nl -> ll\nedge [label=\"\", penwidth=0, arrowsize=0]\nll -> lll\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <ul>

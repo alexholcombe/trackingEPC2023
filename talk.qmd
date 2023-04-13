@@ -22,7 +22,7 @@ format:
 
 {{< video https://www.youtube.com/embed/lAQM4QJRYV8 >}}
 
-{{< video MOTdemoLukavsky.mp4 >}}
+{{< video images/MOTdemoLukavsky.mp4 >}}
 
 ## 
 
@@ -147,7 +147,7 @@ Distinct process Yet to be integrated with VSTM theories. <!--Like it came up wi
 
 ## 3. Split-brain selection
 
-![](splitbrain.png)
+![](images/splitbrain.png)
 
 ```{=html}
 <!--
@@ -156,7 +156,7 @@ Distinct process Yet to be integrated with VSTM theories. <!--Like it came up wi
 ```
 ## 3. Split-brain selection
 
-![](splitbrainWithPools.png)
+![](images/splitbrainWithPools.png)
 
 - A remarkable ~90% independence
 - Semi-independent limits for location selection and updating

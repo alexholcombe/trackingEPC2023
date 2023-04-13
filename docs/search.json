@@ -59,36 +59,36 @@
     "objectID": "talk.html#feature-binding-requires-focused-attention-3",
     "href": "talk.html#feature-binding-requires-focused-attention-3",
     "title": "EPC 2023",
-    "section": "1. Feature binding requires focused attention",
-    "text": "1. Feature binding requires focused attention\n\n\nDid the enhancement from distinct identities extend to a condition where the objects were distinct in terms of a combination of colour and digit, but not in colour or digit alone? Our results clearly showed that it did not.\n\nMakovski & Jiang (2009)\n\nTreisman famously"
+    "section": "1.    Feature binding requires focused attention",
+    "text": "1.    Feature binding requires focused attention\n\n\nDid the enhancement from distinct identities extend to a condition where the objects were distinct in terms of a combination of colour and digit, but not in colour or digit alone? Our results clearly showed that it did not.\n\nMakovski & Jiang (2009)\n\nTreisman famously"
   },
   {
     "objectID": "talk.html#where-but-not-what",
     "href": "talk.html#where-but-not-what",
     "title": "EPC 2023",
-    "section": "2. Where, but not what!",
-    "text": "2. Where, but not what!"
+    "section": "2.    Where, but not what!",
+    "text": "2.    Where, but not what!"
   },
   {
     "objectID": "talk.html#where-but-not-what-1",
     "href": "talk.html#where-but-not-what-1",
     "title": "EPC 2023",
-    "section": "2. Where, but not what!",
-    "text": "2. Where, but not what!\n\n\n\nFeatures are updated poorly as an object moves, or not at all (e.g. Horowitz et al., 2007)\nVSTM remains stuck in the past\n\n\nHorowitz et al. (2007), who had participants track targets with unique appearances - the stimuli were cartoon animals in one set of experiments. At the end of each trial, the targets moved behind occluders so that their identities were no longer visible. Participants were asked where a particular target (say, the cartoon rabbit) had gone - that is, which occluder it was hiding behind. This type of task had been dubbed “multiple identity tracking” by Oksama and Hyönä (2004). Performance was better than chance, but was worse than the standard MOT task of reporting target locations irrespective of which target a location belonged to.\nNot fully anticipated from other visual attention paradigms. Somewhat suggested by FIT.\nDistinct process Yet to be integrated with VSTM theories."
+    "section": "2.    Where, but not what!",
+    "text": "2.    Where, but not what!\n\n\n\nFeatures are updated poorly as an object moves, or not at all (e.g. Horowitz et al., 2007)\nVSTM remains stuck in the past\n\n\nHorowitz et al. (2007), who had participants track targets with unique appearances - the stimuli were cartoon animals in one set of experiments. At the end of each trial, the targets moved behind occluders so that their identities were no longer visible. Participants were asked where a particular target (say, the cartoon rabbit) had gone - that is, which occluder it was hiding behind. This type of task had been dubbed “multiple identity tracking” by Oksama and Hyönä (2004). Performance was better than chance, but was worse than the standard MOT task of reporting target locations irrespective of which target a location belonged to.\nNot fully anticipated from other visual attention paradigms. Somewhat suggested by FIT.\nDistinct process Yet to be integrated with VSTM theories."
   },
   {
     "objectID": "talk.html#split-brain-selection",
     "href": "talk.html#split-brain-selection",
     "title": "EPC 2023",
-    "section": "3. Split-brain selection",
-    "text": "3. Split-brain selection"
+    "section": "3.    Split-brain selection",
+    "text": "3.    Split-brain selection"
   },
   {
     "objectID": "talk.html#split-brain-selection-1",
     "href": "talk.html#split-brain-selection-1",
     "title": "EPC 2023",
-    "section": "3. Split-brain selection",
-    "text": "3. Split-brain selection\n\n\nA remarkable ~90% independence\nSemi-independent limits for location selection and updating"
+    "section": "3.    Split-brain selection",
+    "text": "3.    Split-brain selection\n\n\nA remarkable ~90% independence\nSemi-independent limits for location selection and updating"
   },
   {
     "objectID": "talk.html#the-architecture-of-selection",
@@ -101,36 +101,36 @@
     "objectID": "talk.html#unitary-cognition-contaminates-many-studies",
     "href": "talk.html#unitary-cognition-contaminates-many-studies",
     "title": "EPC 2023",
-    "section": "4. Unitary cognition contaminates many studies",
-    "text": "4. Unitary cognition contaminates many studies"
+    "section": "4.    Unitary cognition contaminates many studies",
+    "text": "4.    Unitary cognition contaminates many studies"
   },
   {
     "objectID": "talk.html#unitary-cognition-contaminates-many-studies-1",
     "href": "talk.html#unitary-cognition-contaminates-many-studies-1",
     "title": "EPC 2023",
-    "section": "4. Unitary cognition contaminates many studies",
-    "text": "4. Unitary cognition contaminates many studies\n - Always test for hemifield independence! If the effect of the factor is twice as big when you distribute targets across hemifields, it’s not cognitive contamination.\n\nWith tracking you can actually isolate a hemisphere-specific process.\nI read a lot of papers that say that this factor or that factor influence MOT performance, and they imply that they’ve revealed something about how the tracking process works, but actually it could just be cognition following a single target and boosting performance.\nA role for"
+    "section": "4.    Unitary cognition contaminates many studies",
+    "text": "4.    Unitary cognition contaminates many studies\n - Always test for hemifield independence! If the effect of the factor is twice as big when you distribute targets across hemifields, it’s not cognitive contamination.\n\nWith tracking you can actually isolate a hemisphere-specific process.\nI read a lot of papers that say that this factor or that factor influence MOT performance, and they imply that they’ve revealed something about how the tracking process works, but actually it could just be cognition following a single target and boosting performance.\nA role for"
   },
   {
     "objectID": "talk.html#crowding-constrains-selection",
     "href": "talk.html#crowding-constrains-selection",
     "title": "EPC 2023",
-    "section": "5. Crowding constrains selection",
-    "text": "5. Crowding constrains selection\n\n\n\n\n\n\n\nSpatial interference\nNot worse with more targets (Holcombe, Chen, & Howe, 2014)"
+    "section": "5.    Crowding constrains selection",
+    "text": "5.    Crowding constrains selection\n\n\n\n\n\n\n\nSpatial interference\nNot worse with more targets (Holcombe, Chen, & Howe, 2014)"
   },
   {
     "objectID": "talk.html#temporal-crowding-constrains-selection",
     "href": "talk.html#temporal-crowding-constrains-selection",
     "title": "EPC 2023",
-    "section": "5. Temporal crowding constrains selection",
-    "text": "5. Temporal crowding constrains selection"
+    "section": "5.    Temporal crowding constrains selection",
+    "text": "5.    Temporal crowding constrains selection"
   },
   {
     "objectID": "talk.html#temporal-crowding-constrains-selection-1",
     "href": "talk.html#temporal-crowding-constrains-selection-1",
     "title": "EPC 2023",
-    "section": "5. Temporal crowding constrains selection",
-    "text": "5. Temporal crowding constrains selection"
+    "section": "5.    Temporal crowding constrains selection",
+    "text": "5.    Temporal crowding constrains selection"
   },
   {
     "objectID": "talk.html#five-lessons-from-studies-of-multiple-object-tracking-1",
@@ -171,7 +171,21 @@
     "objectID": "talk.html#temporal-crowding-constrains-selection-2",
     "href": "talk.html#temporal-crowding-constrains-selection-2",
     "title": "EPC 2023",
+    "section": "5.    Temporal crowding constrains selection",
+    "text": "5.    Temporal crowding constrains selection\n\n\nMuch worse with more targets (Holcombe & Chen, 2013)\nHard to explain without serial switching\nTemporal interference not understood in other paradigms (Tkacz-Domb & Yeshurun, 2021)"
+  },
+  {
+    "objectID": "talk.html#temporal-crowding-constrains-selection-3",
+    "href": "talk.html#temporal-crowding-constrains-selection-3",
+    "title": "EPC 2023",
     "section": "5. Temporal crowding constrains selection",
-    "text": "5. Temporal crowding constrains selection\n\n\nTemporal interference (Verstraten, Cavanagh, & LaBianca, 2000)\nMuch worse with more targets (Holcombe & Chen, 2013)\nHard to explain without serial switching\nTemporal interference is not understood in other paradigms (Tkacz-Domb & Yeshurun, 2021)"
+    "text": "5. Temporal crowding constrains selection\n\n\nMuch worse with more targets (Holcombe & Chen, 2013)\nHard to explain without serial switching\nTemporal interference not understood in other paradigms (Tkacz-Domb & Yeshurun, 2021)"
+  },
+  {
+    "objectID": "talk.html#section-4",
+    "href": "talk.html#section-4",
+    "title": "EPC 2023",
+    "section": "",
+    "text": "## Wut - it’s bizarre I need this to make the next slide not disappear"
   }
 ]

@@ -74,7 +74,7 @@ https://en.wikiversity.org/wiki/WikiJournal_Preprints/Multiple_object_tracking
 
 ![](images/inspectorCartoon.png)
 
-## 1. Feature binding requires focused attention
+## 1.  Feature binding requires focused attention
 
 ### Color attention is sufficient
 
@@ -112,7 +112,8 @@ Distractors: [2]{style="color: red;"}[3]{style="color: blue;"}[1]{style="color: 
 What you learn in every cognitive psychology class
 :::
 
-## 1. Feature binding requires focused attention
+<!--Escape space with slashes-->
+## 1. \ \ \ Feature binding requires focused attention
 
 ![](images/inspectorCartoon.png)
 
@@ -125,13 +126,13 @@ Makovski & Jiang (2009)
 Treisman famously
 :::
 
-## 2. Where, but not what!
+## 2.  \ \ \ Where, but not what!
 
 <BR><BR>
 
 ![](images/puzzling.png)
 
-## 2. Where, but not what!
+## 2.  \ \ \ Where, but not what!
 
 <BR><BR>
 
@@ -150,7 +151,7 @@ Not fully anticipated from other visual attention paradigms. Somewhat suggested 
 Distinct process Yet to be integrated with VSTM theories. <!--Like it came up with Brad Wyble's recent theory-->
 :::
 
-## 3. Split-brain selection
+## 3.  \ \ \ Split-brain selection
 
 ![](images/splitbrain.png)
 
@@ -159,7 +160,7 @@ Distinct process Yet to be integrated with VSTM theories. <!--Like it came up wi
 - MOT may isolate location selection
 - "spatial selection appears to occur at a hemifield-specific stage, with other features subsequently updated and linked in at a field-wide stage."-->
 ```
-## 3. Split-brain selection
+## 3.  \ \ \ Split-brain selection
 
 ![](images/splitbrainWithPools.png)
 
@@ -205,11 +206,11 @@ selectnRH -> output
 }")
 ```
 
-## 4. Unitary cognition contaminates many studies
+## 4.  \ \ \ Unitary cognition contaminates many studies
 
 ![](images/attendToPartsOfSoccerPlayers.png)
 
-## 4. Unitary cognition contaminates many studies
+## 4.  \ \ \ Unitary cognition contaminates many studies
 
 ![](images/trackingCognitiveSpotlight.png)
 - Always test for hemifield independence!
@@ -223,7 +224,7 @@ I read a lot of papers that say that this factor or that factor influence MOT pe
 A role for 
 :::
 
-## 5. Crowding constrains selection
+## 5.  \ \ \ Crowding constrains selection
 
 ```{r, echo=FALSE, fig.cap = ""}
 DiagrammeR::grViz("digraph {
@@ -305,26 +306,33 @@ lll -> llll
 - Spatial interference
 - Not worse with more targets (Holcombe, Chen, & Howe, 2014)
 
-## 5. Temporal crowding constrains selection
+## 5.  \ \ \ Temporal crowding constrains selection
 
 
 ![](images/2targets3objectsPerArray.gif)
 <!-- https://trackinglimits.whatanimalssee.com/speedAndTime.html#temporal-limits-on-tracking-->
 
-## 5. Temporal crowding constrains selection
+## 5.  \ \ \ Temporal crowding constrains selection
 
 ![](images/2targets9objectsPerArray.gif)
 <!-- https://trackinglimits.whatanimalssee.com/speedAndTime.html#temporal-limits-on-tracking-->
 
 
-## 5. Temporal crowding constrains selection
+## 
+
+![](images/temporalAndSpeedLimitsMsec.png)
+## Wut - it's bizarre I need this to  make the next slide not disappear
+
+## 5.  \ \ \ Temporal crowding constrains selection {.smaller}
 
 ![](images/temporalAndSpeedLimitsMsec.png)
 
-- Temporal interference (Verstraten, Cavanagh, & LaBianca, 2000)
 - Much worse with more targets (Holcombe & Chen, 2013)
 - Hard to explain without serial switching
-- Temporal interference is not understood in other paradigms (Tkacz-Domb & Yeshurun, 2021)
+- Temporal interference not understood in other paradigms (Tkacz-Domb & Yeshurun, 2021)
+
+<!-- - Temporal interference (Verstraten, Cavanagh, & LaBianca, 2000) -->
+
 
 ## Five lessons from studies of multiple object tracking
 

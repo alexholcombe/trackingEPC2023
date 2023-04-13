@@ -39,9 +39,9 @@ format:
 Free, at https://tracking.whatanimalssee.com
 
 ::: notes
-When I wrote this book one of the things I noticed was that to explain MOT and its role in the mind one mainly ended up explaining things about the mind that we know from other paradigms.
+In some ways, visual attention and memory are a coherent scientific field. I mean that findings from paradigms other than MOT generalize to MOT too.
 
-In that way, visual attention and memory are a coherent scientific field. I mean that findings from paradigms other than MOT generalize to MOT too.
+When I wrote this book one of the things I noticed was that to explain MOT and its role in the mind one mainly ended up explaining things about the mind that we know from other paradigms.
 
 Not every field of psychology is like that.
 This is not a unified theory of tracking. That would be a different talk. This is broad empirical generalizations, the ingredients to a unified theory.
